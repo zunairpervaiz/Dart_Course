@@ -16,13 +16,13 @@ void main() {
    int i = 1;
    while (i <= 5) {
      print(i);
-  //   i = i + 1;
-  // }
-  // var i = 1;
-  // while (i <= 10) {
-  //   print("${number} * ${i} = ${number * i}");
-  //   i++;
-  // }
+     i = i + 1;
+   }
+   var i = 1;
+   while (i <= 10) {
+     print("${number} * ${i} = ${number * i}");
+     i++;
+   }
 
   // do {
   //   print("${number} * ${i} = ${number * i}");
